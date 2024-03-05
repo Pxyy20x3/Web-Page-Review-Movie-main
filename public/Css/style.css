@@ -662,7 +662,7 @@
             padding: 10px;
 
             & .Username-Comment {
-                width: 120px;
+                width: auto;
                 height: 45px;
                 border-radius: 5px;
                 padding: 10px;
