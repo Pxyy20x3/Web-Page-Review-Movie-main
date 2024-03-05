@@ -284,7 +284,7 @@ app.get('/profile', async (req, res) => {
         if (userID) {
             const response = await axios.post(`${base_url}/profilePost`, { userName: req.session.user.UserName });
 
-            res.render('profile', { profileData: response.data });
+            res.render('Profile', { profileData: response.data });
         } else {
             res.status(403).send('User not authenticated');
         }
