@@ -23,8 +23,8 @@ app.use(
     })
 );
 
-const base_url = "http://localhost:3000";
-// const base_url = "http://node59842-moviemindshub.proen.app.ruk-com.cloud";
+// const base_url = "http://localhost:3000";
+const base_url = "http://node59929-moviemindsreviews.proen.app.ruk-com.cloud";
 
 // Home Routes
 app.get("/", (req, res) => {
