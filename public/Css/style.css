@@ -126,7 +126,8 @@
     }
 
     & .Button-Mode {
-        width: 32px;
+        width: 64px;
+        height: 64px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -136,12 +137,15 @@
 
         & .image-Switch {
             width: 32px;
+            height: 32px;
             transition: all 0.3s ease, opacity 0.3s ease;
             cursor: pointer;
+            border-radius: 50%;
+            background-color: #1a1a1a;
         }
 
         & .image-Switch:hover {
-            transform: scale(1.05);
+            transform: scale(1.06);
             filter: drop-shadow(0 0 0.5rem rgba(30, 30, 30, 0.598));
         }
     }
@@ -876,6 +880,10 @@
         & .line {
             border-left: 1px solid rgba(255, 255, 255, 0.58);
         }
+    }
+
+    .Button-Mode .image-Switch {
+        background: #ffffffdf;
     }
 
 }
